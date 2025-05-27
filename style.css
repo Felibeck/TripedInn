@@ -2,13 +2,21 @@
     margin: 0;
     padding: 0;
     /* border: 1px solid black; */;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
     
 }
 main{
   /* margin-top: 2%; */
   padding-top:2%;
   height: 100%;
-  background-color: #F4F9FF;
+  background-color: lightblue;
+}
+
+#main-destinos{
+  /* padding-top:2%; */
+  padding-bottom:35%;
+  height: 100%;
 }
 
 body {
@@ -198,6 +206,7 @@ footer div {
     float:left;
     margin-bottom:4%;
     margin-top: 1%;
+    background-color: white;
 }
 
 #main-destinos article img{
@@ -226,7 +235,7 @@ footer div {
 
 .boton p{
 
-  padding-top:7%;
+  padding-top:5%;
   padding-bottom:5%;
   border:1px solid black;
   width: 50%;
