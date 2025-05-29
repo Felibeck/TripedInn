@@ -26,42 +26,37 @@
     </header>
     <main id="main-login">
         <div id="div-main-login">
+            <h2>Log-In</h2>
             <form>
-                <h2>Iniciar Sesión</h2>
-                <label class="label-campo-texto">
-                    Nombre de usuario
-                    <input type="text" name="username" required>
+
+                <label>Nombre de Usuario</label>
+                <input type="text" placeholder="Nombre de Usuario" required>
+
+                <label>Contraseña</label>
+                <input type="password" placeholder="Contraseña" required>
+                
+
+                <label>
+                    <input type="checkbox">
+                    Recordar contraseña                    
                 </label>
 
-                <label class="label-campo-texto">
-                    Contraseña
-                    <input type="password" name="password" required>
-                </label>
-
-                <label class="label-campo-texto">
-                    Recordar contraseña
-                    <input type="checkbox" name="recordarContraseña"> <br>
-                </label>
-
-                <label class="label-campo-texto">
+                <label>
                     Fecha de nacimiento
                     <input type="date" name="fechaNacimiento" required>
                 </label>
 
-                <label class="label-campo-texto">
-                    Genero
-                <div>
-                    <input type="radio" name="genero" required> Masculino <br>
-                    <input type="radio" name="genero" required> Femenino <br>
-                    <input type="radio" name="genero" required> Otro:
-                    <input type="text" name="genero" id="texto-genero-otro">
+                <div class="contenedor-generos">
+                    
+                    <label>
+                    <p id="p-login-generos">Genero:</p>
+                        <input type="radio" name="genero" id="genero-masculino" required> Masculino
+                        <input type="radio" name="genero" required> Femenino
+                    </label>
                 </div>
-                </label>
 
-                <div class="botones-entrega">
-                <input type="submit" value="Iniciar Sesión">
-                <input type="reset" value="Borrar">
-                </div>
+                <input type="submit" value="Iniciar Sesión" class="botones-login" id="iniciarSesion-login">
+                <input type="reset" value="Borrar" class="botones-login" id="borrar-login">
             </form>
         </div>
     </main>

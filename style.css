@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: 1px solid black; */;
+    /* border: 1px solid black;; */
     font-family: "Inter", sans-serif;
     font-weight: 500;
     
@@ -11,6 +11,7 @@ main{
   padding-top:2%;
   height: 100%;
   background-color: lightblue;
+  padding-bottom:5%;
 }
 
 #main-destinos{
@@ -249,30 +250,144 @@ footer div {
   text-align: center;
 }
 
+
 #main-login{
   padding-bottom:10%;
 }
+
 #div-main-login{
-  margin-right:35%;
+  width: 23%;
+  height:auto;
   margin-left:40%;
-  font-size: 35px;
-}
-#form-main-login h2{
-  margin-bottom: 10%;
-}
-#label-nombre{
-  margin-bottom: 30%;
+  border: 1px solid black;
+  border-radius: 15px;
+  /* text-align: center; */
+  background-color: white;
+  
 }
 
-.botones-entrega{
-  clear:both;
-  margin-left: 1%;
+#div-main-login h2{
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom:4%;
+  background-color:black;
+  color:white;
+  width: 35%;
+  padding:1%;
+  margin-top:1%;
+  margin-left:29%;
+}
+
+#div-main-login form label{
+  display:block; 
+}
+
+#genero-masculino{
+  float: left;
+}
+
+
+#div-main-login form{
+  margin-left:26%;
+}
+
+#div-main-login form input{
+  margin-bottom: 4%;
+  padding:2%;
+  border-radius: 20px;
+}
+
+.contenedor-generos{
+  margin-bottom:10%;
+}
+
+
+#p-login-generos{
+  float:left;
+  padding-right:2%;
+}
+
+.botones-login{
+  clear: both;
+  color:white;
+  font-size: 20px;
+  box-shadow: 0 6px 24px rgba(10, 116, 218, 0.45), 0 1.5px 8px rgba(0,0,0,0.25), 0 0px 1.5px 2px rgba(10,116,218,0.12);
+}
+
+#iniciarSesion-login{
+  background-color: black;
+
+}
+
+#borrar-login{
+  background-color: red;
+}
+
+#div-main-login form input[type="submit"], #div-main-login form input[type="reset"]{
+  padding:5%;
 }
 
 
 
 
 
+
+
+.destino-particular-imagenes{
+  width: 30%;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.destino-particular-medio{
+  width: 39.5%;
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.div-imagenes-destinos{
+  margin-bottom: 2%;
+}
+.descripcion-destino-particular{
+  margin:2%;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 20px;
+}
+.div-destinos-detallesInformativos{
+  margin-left: 5%;
+  margin-right:5%;
+  padding: 2%;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.div-destinos-detallesInformativos ul li{
+  list-style: none;
+  margin-bottom:1%;
+}
+
+.div-destinos-detallesInformativos{
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right:5%;
+  padding: 2%;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  margin-bottom: 5%;
+}
+.div-destinos-detallesInformativos h3{
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 30px;
+  margin-bottom: 1%;
+}
+.div-destinos-detallesInformativos ul li{
+  list-style: none;
+  margin-bottom: 1%;
+}
 
 
 
