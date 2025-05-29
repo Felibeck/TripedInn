@@ -20,14 +20,14 @@
             <ul>
                 <li><a href="index.html"><img src="imagenes/casa.png" alt="icono-casa"></a><p>Home</p></li>
                 <li><a href="destinos.html"><img src="imagenes/avion.png" alt="icono-avion"></a><p>Destinos</p></li>
-                <li id="login-icono"><a href="login.html"><img src="imagenes/login-logo.webp" alt="icono-login"></a><p>Log in</p></li>
+                <li class="login-icono"><a href="login.html"><img src="imagenes/login-logo.webp" alt="icono-login"></a><p>Log in</p></li>
             </ul>
         </nav>
     </header>
-    <main id="main-login">
-        <div id="div-main-login">
+    <main class="main-login">
+        <div class="div-main-login">
             <h2>Log-In</h2>
-            <form>
+            <form action="index.html">
 
                 <label>Nombre de Usuario</label>
                 <input type="text" placeholder="Nombre de Usuario" required>
@@ -49,14 +49,14 @@
                 <div class="contenedor-generos">
                     
                     <label>
-                    <p id="p-login-generos">Genero:</p>
-                        <input type="radio" name="genero" id="genero-masculino" required> Masculino
+                    <p class="p-login-generos">Genero:</p>
+                        <input type="radio" name="genero" class="genero-masculino" required> Masculino
                         <input type="radio" name="genero" required> Femenino
                     </label>
                 </div>
 
-                <input type="submit" value="Iniciar Sesión" class="botones-login" id="iniciarSesion-login">
-                <input type="reset" value="Borrar" class="botones-login" id="borrar-login">
+                <input type="submit" value="Iniciar Sesión" class="botones-login">
+                <input type="reset" value="Borrar" class="botones-login">
             </form>
         </div>
     </main>
